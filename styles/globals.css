@@ -57,6 +57,7 @@ img {
   margin: 56px auto 2rem;
   background-color: var(--white);
 }
+
 /* === */
 
 /* Page controller i.e. next, prev, page selection buttons */
@@ -114,3 +115,35 @@ img {
 
 }
 /* === */
+
+/* Responsive Styles */
+
+.content-container {
+  margin: 0 5%;
+}
+
+.publication-info {
+  margin: 0 5%;
+}
+
+.publication-info h1 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 1);
+  letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 1044px) {
+
+  .content-container {
+    max-width: 990px;
+    margin: auto;
+  }
+
+  .publication-info {
+    max-width: 990px;
+    margin: auto;
+  }
+
+}
